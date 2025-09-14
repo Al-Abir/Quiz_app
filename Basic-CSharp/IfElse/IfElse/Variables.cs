@@ -10,9 +10,16 @@ namespace IfElse
     {
         public static void ShowVariables()
         {
-            int a = 10;
-            int b = 20;
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
             Console.WriteLine($"Sum: {a + b}");
+
+            int num = int.Parse(Console.ReadLine());
+
+            if (num > 20)
+            {
+                Console.WriteLine("buy a book");
+            }
         }
     }
 }
